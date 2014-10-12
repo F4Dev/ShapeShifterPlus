@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>SS+</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+<canvas class="canvas"></canvas>
+
+<div class="help">?</div> 
+
+<div class="ui">
+  <input class="ui-input" type="text" />
+  <span class="ui-return">↵</span>
+</div>
+
+<div class="overlay">
+  <div class="tabs">
+    <div class="tabs-labels"><span class="tabs-label">Befehle</span><span class="tabs-label">Über SS+</span><span class="tabs-label">Teilen</span></div>
+
+    <div class="tabs-panels">
+      <ul class="tabs-panel commands">
+        <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hallo :)">Schreib einfach irgendwas</span><span class="commands-item-action">Test</span></li>
+        <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="/down 10">/down<span class="commands-item-mode">Sekunden</span></span><span class="commands-item-action">Test</span></li>
+        <li class="commands-item"><span class="commands-item-title">Uhrzeit</span><span class="commands-item-info" data-demo="/zeit">/zeit</span><span class="commands-item-action">Test</span></li>
+        <li class="commands-item"><span class="commands-item-title">Rechteck</span><span class="commands-item-info" data-demo="/reck 30x15">/reck<span class="commands-item-mode">Breite x Höhe</span></span><span class="commands-item-action">Test</span></li>
+        <li class="commands-item"><span class="commands-item-title">Kreis</span><span class="commands-item-info" data-demo="/kreis 25">/kreis<span class="commands-item-mode">Durchmesser</span></span><span class="commands-item-action">Test</span></li>
+
+        <li class="commands-item commands-item--gap"><span class="commands-item-title">Animation</span><span class="commands-item-info" data-demo="Es ist|/zeit|/down 3|/sym thumbs-up"><span class="commands-item-mode">Befehl1</span>&nbsp;|<span class="commands-item-mode">Befehl2</span></span><span class="commands-item-action">Test</span></li>
+      </ul>
+
+      <div class="tabs-panel ui-details">
+        <div class="ui-details-content">
+          <h1>Shape Shifter Plus</h1>
+          <p>
+            Eine Weiterentwicklung von <a href="//www.ztzockt.tk" target="_blank">Marvin<a/>.<br/>
+            <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> wird für die /sym-Symbole verwendet.
+          </p>
+
+          <br/><p>Leider werden Symbole nur in der <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Original-Version</a> von Kenneth Cachia unterstützt.</p>
+        </div>
+      </div>
+
+      <div class="tabs-panel ui-share">
+        <div class="ui-share-content">
+          <h1>Weitergeben?</h1>
+          <p>Einfach <em>?a=</em> an die aktuelle URL anhängen. Das sieht dann zum Beispiel so aus:</p>
+          <p>
+            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a><br/>
+            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
